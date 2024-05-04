@@ -245,5 +245,3 @@ hm=sns.heatmap(data=data)
 Thus, all the data visualization techniques of seaborn has been implemented.
 
 
-# Result:
- Include your result here
