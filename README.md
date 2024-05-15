@@ -150,19 +150,6 @@ num_var
 ![323213974-5e149370-320f-4c4b-b6e9-93839011d166](https://github.com/charumathiramesh/EXNO-6-DS/assets/120204455/4baba1d4-29c8-4e54-90df-a4ac4bc1e1ac)
 
 ```c
-
-sns.histplot(data = num_var, kde = True)
-```
-![323214138-39b3d5fa-e8af-45f5-afb2-2875c766a5e6](https://github.com/charumathiramesh/EXNO-6-DS/assets/120204455/b18d2e46-1956-418a-ae70-1b677cf64aee)
-
-```c
-df=pd.read_csv("titanic_dataset.csv")
-sns.histplot(data=df,x="Pclass", hue="Survived", kde=True)
-```
-
-![323214244-e8b91ede-1cc0-4087-beb6-c3c56d8137ee](https://github.com/charumathiramesh/EXNO-6-DS/assets/120204455/ff370859-1c3e-4dcb-a384-f6ce3c61a74d)
-
-```c
 tips=sns.load_dataset('tips')
 sns.boxplot(x=tips['day'], y=tips ['total_bill'], hue=tips['sex'])
 ```
@@ -187,16 +174,6 @@ plt.title("Violin Plot of Total Bill by Day and Smoker Status")
 
 
 
-```c
-sns.kdeplot(data=mart,x='PassengerId')
-```
-![323214956-727482e0-5b45-47e4-8542-93ebc9cfb5b7](https://github.com/charumathiramesh/EXNO-6-DS/assets/120204455/32f7592c-f03d-4590-8df8-b5af7ecec802)
-
-```c
-sns.kdeplot(data=mart,x='Age')
-```
-
-![323215089-9bb955c9-ba97-48ab-b158-35a44931ccf6](https://github.com/charumathiramesh/EXNO-6-DS/assets/120204455/05cca1d7-a668-4971-af4e-118a93b2d37c)
 
 ```c
 sns.kdeplot(data=mart)
