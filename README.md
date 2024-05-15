@@ -185,18 +185,7 @@ plt.title("Violin Plot of Total Bill by Day and Smoker Status")
 ![323214570-8dec8878-d0bb-46ca-bc17-095aba86cffd](https://github.com/charumathiramesh/EXNO-6-DS/assets/120204455/13fefd2c-10b9-4273-847b-027a7f9f8669)
 
 
-```c
-mart=pd.read_csv("titanic_dataset.csv")
-mart
-```
-![323214740-32c63c42-35dc-47df-b851-c13e54c166aa](https://github.com/charumathiramesh/EXNO-6-DS/assets/120204455/ec5ccb4d-75d5-4855-bb4f-c5808200b367)
 
-```c
-mart=mart[['PassengerId', 'Survived', 'Age', 'Name', 'Ticket', 'Embarked']] 
-mart.head(10)
-```
-
-![323214850-bcbe61b9-5739-4853-a186-302272133266](https://github.com/charumathiramesh/EXNO-6-DS/assets/120204455/d1708160-4246-4784-9309-643fe5069070)
 
 ```c
 sns.kdeplot(data=mart,x='PassengerId')
